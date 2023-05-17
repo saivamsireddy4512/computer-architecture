@@ -1,0 +1,8 @@
+MVI A,00H
+MVI B,03H
+MVI C,02H
+ADD B
+DCR C
+JNZ class
+MOV D,A
+HLT
